@@ -26,7 +26,7 @@ BFS는 시작점에서 가까운 노드부터 차례대로 방문하며 탐색�
 ### 다중 상태 문제 (Multi-state Problem)
 탐색 문제에서 여러 상태가 존재하는 경우, 각 상태 조건에 따라 경로가 달라질 수 있다. 따라서 최단 경로를 찾기 위해서는 방문 기록을 다차원 컨테이너를 사용해 관리해야 한다.
 
-참고 문제 : [2206. 벽 부수고 이동하기](https://github.com/AHEAD94/cs-notes/tree/main/Algorithms/BFS%26DFS/2206/)
+참고 문제 : [2206. 벽 부수고 이동하기](https://github.com/AHEAD94/cs-notes/tree/main/Algorithms/BFS%26DFS/2206.%20%EB%B2%BD%20%EB%B6%80%EC%88%98%EA%B3%A0%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/)
 
 ## 2. DFS (Depth-First Search) : 깊이 우선 탐색
 DFS는 한 경로를 끝까지 탐색한 후, 다른 경로를 탐색하는 방식이다. 깊이 우선으로 탐색하기 때문에 백트래킹(backtracking)을 활용하는 경우가 많다.
